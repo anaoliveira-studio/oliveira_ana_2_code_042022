@@ -880,13 +880,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
-    background-image: -webkit-image-set(
-    url("img/agence-la-panthere.webp") type("image/webp"),
-    url("img/agence-la-panthere.jpg") type("image/jpeg"));
-  background-image: image-set(
-    url("img/agence-la-panthere.webp") type("image/webp"),
-    url("img/agence-la-panthere.jpg") type("image/jpeg"));
+    background-image: url("img/agence-la-panthere.webp"), url("img/agence-la-panthere.jpg");
 }
 
 @media (max-width: 1024px) {
